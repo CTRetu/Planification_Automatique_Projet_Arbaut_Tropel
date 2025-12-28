@@ -1,0 +1,3 @@
+Algorithm,Plan_Length,Time_Seconds,Nodes_Simulations,Success
+A*,44,397.399,612355,1
+Monte_Carlo,0,300.004,44592,0
