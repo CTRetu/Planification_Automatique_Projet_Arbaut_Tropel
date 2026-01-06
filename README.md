@@ -10,10 +10,6 @@
 
 ## Table des matières
 
-## Table des matières
-
-## Table des matières
-
 1. [Description du projet](#description-du-projet)
 2. [Architecture du projet](#architecture-du-projet)
    1. [Composants Principaux](#composants-principaux)
