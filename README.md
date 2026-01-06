@@ -228,7 +228,7 @@ Cette section présente les résultats expérimentaux obtenus pour chacun des do
 Les expérimentations ont été menées sur 10 instances par domaine. Voici les observations des quatre domaines (Blocksworld, Depots, Freecells, Logistics) :
 
 #### Nombre de Problèmes Résolus
-Ici on ne parlera pas de "taux de réussite" mais du nombre de problèmes résolus par chaque algorithme car nous n'avons pas pu utiliser VAL pour valider les plans. Ces derniers sont trop volumineux et engendre des erreurs avec le validateur.
+Ici on ne parlera pas de "taux de réussite" mais du **nombre de problèmes résolus par chaque algorithme** car nous n'avons pas pu utiliser *VAL* pour valider les plans. Ces derniers sont trop volumineux et engendre des erreurs avec le validateur.
 
 | Domaine         | A*                 | Monte Carlo        |
 | --------------- | ------------------ | ------------------ |
@@ -264,9 +264,9 @@ Les tableaux ci-dessous présentent les temps d’exécution moyens (en secondes
 - Lorsqu’une solution est trouvée, MC reste plusieurs ordres de grandeur plus lent que A*.
 - Le gain de performance d’A* est particulièrement marqué sur Blocksworld (facteur supérieur à ×300 sur certaines instances).
 
-#### Qualité des Plans (Makespan)
+#### Qualité des Plans (*Makespan*)
 
-Le makespan correspond au nombre d’actions dans le plan. Une valeur de `0` indique qu’aucune solution n’a été trouvée.
+Le *makespan* correspond au nombre d’actions dans le plan. Une valeur de `0` indique qu’aucune solution n’a été trouvée.
 
 | Domaine         | A* (moyenne) | MC (moyenne) | Observation                                       | Gagnant |
 | --------------- | ------------ | ------------ | ------------------------------------------------- | ------- |
@@ -305,7 +305,7 @@ Le domaine complexe combinant transport et stockage, avec un facteur de branchem
 #### 3. Freecells
 
 **Caractéristiques :**
-Se base sur le jeu de cartes Freecell, il y a un très grand espace d’états et nombreuses contraintes.
+Se base sur le jeu de cartes "Freecell", il y a un très grand espace d’états et nombreuses contraintes.
 
 **Résultats :**
 - **A*** : Tous les problèmes sont résolus rapidement (< 1,3 s).
@@ -392,5 +392,5 @@ Les résultats expérimentaux montrent de manière très nette la supériorité 
 
 ---
 
-*Projet réalisé dans le cadre du cours de Planification Automatique - Master 2 MIASHS IC - 2025/2026*
+*Projet réalisé dans le cadre du cours de Planification Automatique - Master 2 MIASHS Informatique et Cognition - 2025/2026*
 
